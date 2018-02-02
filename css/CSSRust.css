@@ -1,9 +1,10 @@
 body {
-    background-color: skyblue
+    background-color: rgba(255, 255, 255, 0.69);
+    margin: 0px;
 }
 
 h1 {
-    color: white;
+    color: #000000;
     text-align: center;
 }
 
@@ -18,11 +19,15 @@ video {
 }
 
 #rustvideo {
-position: static;
-top: 2px;
+position: absolute;
+top: 0px;
 }
 
 .parallax-window {
     min-height: 400px;
     background: transparent;
+}
+#id="error1" {
+    position: relative;
+
 }
