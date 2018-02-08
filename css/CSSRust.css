@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Butcherman');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 body {
-      font-family: 'Butcherman', cursive;
+      font-family: 'Press Start 2P', cursive;
 }
 
 body {
@@ -15,7 +15,7 @@ h1 {
 
 p {
     background-color: blueviolet;
-    font-family: 'Butcherman';
+    font-family: 'Press Start 2P';
     font-size: 20px;
 }
 
