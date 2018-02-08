@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Butcherman');
+body {
+      font-family: 'Butcherman', cursive;
+}
+
 body {
     background-color: rgba(255, 255, 255, 0.69);
     margin: 0px;
@@ -9,7 +14,8 @@ h1 {
 }
 
 p {
-    font-family: fantasy;
+    background-color: blueviolet;
+    font-family: 'Butcherman';
     font-size: 20px;
 }
 
@@ -29,5 +35,4 @@ top: 0px;
 }
 #error1 {
     position: relative;
-
 }
