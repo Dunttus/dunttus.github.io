@@ -1,22 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Marcellus+SC');
 body {
-      font-family: 'Press Start 2P', cursive;
+      font-family: 'Marcellus SC', serif;
 }
 
 body {
-    background-color: rgba(255, 255, 255, 0.69);
+    background-color: rgba(39, 171, 203, 0.69);
     margin: 0px;
 }
 
 h1 {
     color: #000000;
     text-align: center;
+    font-size: 100px;
 }
 
 p {
     background-color: blueviolet;
-    font-family: 'Press Start 2P';
-    font-size: 20px;
+    font-family: 'Marcellus SC';
+    font-size: 30px;
+}
+
+li {
+    color: black;
+    font-size: 35px;
 }
 
 video {
@@ -35,4 +41,8 @@ top: 0px;
 }
 #error1 {
     position: relative;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
 }
