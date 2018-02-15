@@ -4,7 +4,7 @@ body {
 }
 
 body {
-    background-color: rgb(145, 117, 117);
+    background-color: #4a464e;
     margin: 0px;
 }
 
@@ -36,9 +36,10 @@ p1 {
 hr {
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
-    border color: black;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-color: black;
+    background-color: black;
 }
 
 li {
@@ -92,19 +93,22 @@ top: 0px;
 @media only screen and (min-width: 361px) {
 
     .flex-container {
-        display: flex
+        display: flex;
+        padding-right: 4%;
+        padding-left: 4%;
     }
     .flex-item {
         flex: 1;
-        padding: 5px
+        padding: 5px;
     }
 
     nav ul {
         padding-left: 0px;
     }
     nav li {
-        display: inline-block
+        display: inline-block;
     }
 
-}
+
+
 
