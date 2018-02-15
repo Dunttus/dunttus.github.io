@@ -4,7 +4,7 @@ body {
 }
 
 body {
-    background-color: rgba(39, 171, 203, 0.69);
+    background-color: rgb(145, 117, 117);
     margin: 0px;
 }
 
@@ -13,11 +13,32 @@ h1 {
     text-align: center;
     font-size: 100px;
 }
+h2 {
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+}
 
 p {
     background-color: blueviolet;
     font-family: 'Marcellus SC';
     font-size: 30px;
+}
+
+p1 {
+    background-color: white;
+    display: block;
+    font-family: 'Marcellus SC';
+    font-size: 30px;
+    text-align: center;
+}
+
+hr {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    border color: black;
 }
 
 li {
@@ -39,10 +60,51 @@ top: 0px;
     min-height: 400px;
     background: transparent;
 }
-#error1 {
-    position: relative;
-    margin-top: 40px;
-    margin-right: 40px;
-    margin-left: 40px;
-    margin-bottom: 40px;
+
+#error1 {width: 80%;
+    display: block;
+    margin: auto;
+    border: solid 2px transparent;
+    border-radius: 2px;
 }
+
+#error2 {width: 80%;
+    display: block;
+    margin: auto;
+    border: solid 2px transparent;
+    border-radius: 2px;
+}
+
+#error3 {width: 80%;
+    display: block;
+    margin: auto;
+    border: solid 2px transparent;
+    border-radius: 2px;
+}
+
+#error4 {width: 80%;
+    display: block;
+    margin: auto;
+    border: solid 2px transparent;
+    border-radius: 2px;
+}
+
+@media only screen and (min-width: 361px) {
+
+    .flex-container {
+        display: flex
+    }
+    .flex-item {
+        flex: 1;
+        padding: 5px
+    }
+
+    nav ul {
+        padding-left: 0px;
+    }
+    nav li {
+        display: inline-block
+    }
+
+}
+
