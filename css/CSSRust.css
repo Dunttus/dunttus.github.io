@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Marcellus+SC');
+@import url('https://fonts.googleapis.com/css?family=Pridi');
 body {
       font-family: 'Marcellus SC', serif;
 }
@@ -28,7 +29,7 @@ p {
 p1 {
     background-color: white;
     display: block;
-    font-family: 'Marcellus SC';
+    font-family: 'Pridi';
     font-size: 30px;
     text-align: center;
 }
@@ -90,7 +91,18 @@ top: 0px;
     border-radius: 2px;
 }
 
+@media screen and (max-width: 991px) {
+     /* isot tabletit */
+
+}
+
+@media screen and (max-width: 767px) {
+     /* tabletit */
+}
+
 @media only screen and (min-width: 361px) {
+    /* pienin älyhuhelin pikseli koko? */
+
 
 .flex-container {
     display: flex;
@@ -110,7 +122,3 @@ nav ul {
 nav li {
     display: inline-block;
 }
-
-
-
-
