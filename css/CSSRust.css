@@ -11,13 +11,23 @@ body {
 
 h1 {
     color: #000000;
+    font-family: 'Marcellus SC';
     text-align: center;
     font-size: 100px;
 }
 h2 {
     color: #000000;
-    text-align: left;
+    font-family: 'Marcellus SC';
+    text-align: center;
     font-size: 50px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #000000;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
 }
 
 p {
@@ -32,6 +42,26 @@ p1 {
     font-family: 'Pridi';
     font-size: 30px;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+p2 {
+    color: #000000;
+    background-color: grey;
+    display: block;
+    font-family: 'Pridi';
+    font-size: 30px;
+    text-align: center;
+}
+
+p3 {
+    color: #000000;
+    background-color: red;
+    display: block;
+    font-family: 'Pridi';
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 hr {
@@ -45,7 +75,10 @@ hr {
 
 li {
     color: black;
+    font-family: 'Pridi';
     font-size: 30px;
+    text-align: center;
+    list-style-type: none;
 }
 
 video {
@@ -91,17 +124,10 @@ top: 0px;
     border-radius: 2px;
 }
 
-@media screen and (max-width: 991px) {
-     /* isot tabletit */
 
-}
 
-@media screen and (max-width: 767px) {
-     /* tabletit */
-}
-
-@media only screen and (min-width: 361px) {
-    /* pienin älyhuhelin pikseli koko? */
+@media only screen and (min-width: 361px) and (min-width: 767px) {
+    /* älypuhelimen alareunan pikseli koko 361px / 767px */
 
 
 .flex-container {
