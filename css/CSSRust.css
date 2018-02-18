@@ -36,7 +36,7 @@ p {
     font-size: 30px;
 }
 
-p1 {
+.p1 {
     background-color: white;
     display: block;
     font-family: 'Pridi';
@@ -45,16 +45,17 @@ p1 {
     margin-bottom: 20px;
 }
 
-p2 {
+.p2 {
     color: #000000;
     background-color: grey;
     display: block;
     font-family: 'Pridi';
     font-size: 30px;
     text-align: center;
+    margin: 0px;
 }
 
-p3 {
+.p3 {
     color: #000000;
     background-color: red;
     display: block;
