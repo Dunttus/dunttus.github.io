@@ -125,6 +125,18 @@ top: 0px;
     border-radius: 2px;
 }
 
+.error5 {width: 100%;
+    display: block;
+    margin: 0px;
+    border: solid 1px transparent;
+    border-radius: 1px;
+}
+
+.error5:hover {
+    background-color: yellow;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.7);
+    background-blend-mode: multiply;
+}
 
 .borderbox {
     border: solid 2px black;
@@ -147,12 +159,17 @@ top: 0px;
     padding: 5px;
 }
 
-
-
 nav ul {
     padding-left: 0px;
 }
     
 nav li {
     display: inline-block;
+}
+    
+.square:hover {
+  color:#fff;
+  box-shadow: 2px 2px 15px rgba(0,0,0,0.7);
+  background-color: rgba(150, 150, 150, 0.3);
+  background-blend-mode: multiply;
 }
