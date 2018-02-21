@@ -134,8 +134,9 @@ top: 0px;
 
 .error5:hover {
     background-color: yellow;
-    box-shadow: 2px 2px 15px rgba(0,0,0,0.7);
-    background-blend-mode: multiply;
+    box-shadow: 20px 20px 40px rgba(0,0,0,0.7);
+    cursor: crosshair;
+    opacity: 0.8 !important;
 }
 
 .rustlink {
@@ -164,19 +165,10 @@ margin: auto;
     padding: 5px;
 }
 
-
-
 nav ul {
     padding-left: 0px;
 }
     
 nav li {
     display: inline-block;
-}
-    
-.square:hover {
-  color:#fff;
-  box-shadow: 2px 2px 15px rgba(0,0,0,0.7);
-  background-color: rgba(150, 150, 150, 0.3);
-  background-blend-mode: multiply;
 }
