@@ -136,7 +136,7 @@ top: 0px;
     background-color: yellow;
     box-shadow: 20px 20px 40px rgba(0,0,0,0.7);
     cursor: crosshair;
-    opacity: 0.8 !important;
+    opacity: 0.4 !important;
 }
 
 .rustlink {
