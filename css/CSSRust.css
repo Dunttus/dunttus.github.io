@@ -150,6 +150,21 @@ margin: auto;
     margin: 10px 1%;
 }
 
+nav ul {
+    padding-left: 0px;
+    margin: 0px !important;
+}
+    
+nav li {
+    display: inline-block;
+    font-family: 'Marcellus SC';
+    font-size: 15px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
 @media only screen and (min-width: 361px) and (min-width: 767px) {
     /* älypuhelimen alareunan pikseli koko 361px / 767px */
 
@@ -164,11 +179,4 @@ margin: auto;
     flex: 1;
     padding: 5px;
 }
-
-nav ul {
-    padding-left: 0px;
-}
-    
-nav li {
-    display: inline-block;
 }
