@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Marcellus+SC');
+@import url('https://fonts.googleapis.com/css?family=Pridi');
+body {
+      font-family: 'Marcellus SC', serif;
+}
+
+body {
+    /* Background pattern from Subtle Patterns */
+    background-image: url("../img/slash123.png");
+    /* Background pattern from Subtle Patterns */
+    background-repeat: repeat;
+    margin: 0px;
+}
+
+h1 {
+    color: #000000;
+    font-family: 'Marcellus SC';
+    text-align: center;
+    font-size: 100px;
+    color: whitesmoke;
+}
+h2 {
+    color: #000000;
+    font-family: 'Marcellus SC';
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+h3 {
+    color: #000000;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+p {
+    font-family: 'Marcellus SC';
+    color: black;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.p1 {
+    display: block;
+    font-family: 'Pridi';
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+.p2 {
+    color: #000000;
+    background-color: grey;
+    display: block;
+    font-family: 'Pridi';
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+}
+
+.p3 {
+    color: #000000;
+    background-color: red;
+    display: block;
+    font-family: 'Pridi';
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-color: whitesmoke;
+    background-color:whitesmoke;
+}
+
+li {
+    color: black;
+    font-family: 'Pridi';
+    font-size: 30px;
+    text-align: center;
+    list-style-type: none;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+#rustvideo {
+position: absolute;
+top: 0px;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+#error1 {width: 80%;
+    display: block;
+    margin: auto;
+    border: solid 2px transparent;
+    border-radius: 2px;
+}
+
+#error2 {width: 80%;
+    display: block;
+    margin: auto;
+    border: solid 2px transparent;
+    border-radius: 2px;
+}
+
+#error3 {width: 80%;
+    display: block;
+    margin: auto;
+    border: solid 2px transparent;
+    border-radius: 2px;
+}
+
+#error4 {width: 80%;
+    display: block;
+    margin: auto;
+    border: solid 2px transparent;
+    border-radius: 2px;
+}
+
+.error5 {width: 100%;
+    display: block;
+    margin: 0px;
+    border: solid 1px transparent;
+    border-radius: 1px;
+}
+
+.error5:hover {
+    background-color: yellow;
+    box-shadow: 20px 20px 40px rgba(0,0,0,0.7);
+    cursor: crosshair;
+    opacity: 0.4 !important;
+}
+
+.rustlink {
+width: 80%;
+margin: auto;
+}
+
+.borderbox {
+    border: solid 2px black;
+    background-color: gray;
+    margin: 10px 1%;
+}
+
+nav ul {
+    padding-left: 0px;
+    margin: 0px !important;
+}
+    
+nav li {
+    display: inline-block;
+    font-family: 'Marcellus SC';
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-size: 23px;
+}
+
+.link {
+    font-size: 50px;
+    
+}
+
+#link-container {
+    text-align: center;
+}
+#link-container2 {
+    text-align: center;
+}
+
+@media only screen and (min-width: 361px) and (min-width: 767px) {
+    /* älypuhelimen alareunan pikseli koko 361px / 767px */
+
+
+.flex-container {
+    display: flex;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+    
+.flex-item {
+    flex: 1;
+    padding: 5px;
+}
+}
