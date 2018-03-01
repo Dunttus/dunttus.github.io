@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    background-color: #4a464e;
+    background-color: rgb(47, 56, 56);
     margin: 0px;
 }
 
@@ -37,10 +37,9 @@ p {
 }
 
 .p1 {
-    background-color: white;
     display: block;
     font-family: 'Pridi';
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -140,7 +139,7 @@ top: 0px;
 }
 
 .rustlink {
-width: 90%;
+width: 80%;
 margin: auto;
 }
 
@@ -158,11 +157,24 @@ nav ul {
 nav li {
     display: inline-block;
     font-family: 'Marcellus SC';
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .navbar-brand {
-    font-size: 20px;
+    font-size: 23px;
+}
+
+.link {
+    font-size: 50px;
+    background-color: black;
+    
+}
+
+#link-container {
+    text-align: center;
+}
+#link-container2 {
+    text-align: center;
 }
 
 @media only screen and (min-width: 361px) and (min-width: 767px) {
