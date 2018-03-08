@@ -171,14 +171,14 @@ margin: auto;
 
 .topnav {
     overflow: hidden;
-    background-color: rgb(44, 41, 41);
+    background-color: rgb(29, 29, 29);
     position: fixed;
     width: 100%;
     z-index: 10;
   }
   
   .topnav a {
-    font-family: 'Pridi'!important;
+    font-family: 'Marcellus SC'!important;
     float: left;
     display: block;
     color: white;
