@@ -12,17 +12,15 @@
     
 <body>
 <header>  
- <nav class="navbar navbar-inverse navbar-fixed-top">                                                                                                                                           <!-- Navigointi palkki -->
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">ES&CS</a>                                                                                                                                                <!-- Ylos meno -->
+ </nav> 
+    <div class="topnav" id="myTopnav">
+        <a class="navbar-header">
+        <a href="#">ES&CS</a>
+        <a href="index.html" class="active">Home</a>
+        <a href="servers.html">Servers</a>
+        <a href="rules.html">Rules</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="index.html">Home</a></li>                                                                                                                                     <!-- index linkki -->
-      <li><a href="servers.html">Servers</a></li>                                                                                                                                               <!-- servers sivun linkki -->
-      <li><a href="rules.html">Rules</a></li>                                                                                                                                                   <!-- sääntö sivun linkki -->
-    </ul>
-  </div>
  </nav>
 </header>
     <div class="parallax-window">                                                                                                                                                               <!-- Paralax Scrolling -->
@@ -115,10 +113,18 @@
     </div>                                                                                                                              
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"> </script>                                                                                                      <!-- jquery -->
-<script src="src/parallax.min.js"> </script>                                                                                                                                                    <!-- java script -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>                                                                                                    <!-- Bootstrap -->
+<script src="src/parallax.min.js"> </script>                                                                                                                                                    <!-- paralax script -->
+<script> 
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>                                                                                                  
 <script src="src/aos.js"></script>                                                                                                                                                              <!-- Srolling fade -->
 <script>AOS.init();</script>                                                                                                                                                                    <!-- aloittaa aos sriptin -->
 </body> 
-
 </html>
